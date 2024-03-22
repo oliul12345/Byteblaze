@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
-    <div className="text-center flex justify-center items-center min-h-[calc(100vh-64px)">
-      <div className="hero  bg-base-200">
+    <div className="text-center flex justify-center items-center">
+      <div className="hero -mt-16">
         <div className="hero-content text-center">
           <div className="max-w-lg h-full">
             <h1 className="text-5xl font-bold">Welcome to ByteBlaze</h1>

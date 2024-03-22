@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from 'react-router-dom';
 import image from '../../../public/404.jpg'
 const Blog = ({blog}) => {
-    console.log(blog)
+    console.log(blog.id)
     return (
-        <div>
-             <a
+        <div className='border-2 border-purple-700 hover:border-red-500 transition hover:scale-105'>
+             <Link
+             to={`${blog.id}`}
               rel="noopener noreferrer"
               href="#"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline "
@@ -26,7 +28,7 @@ const Blog = ({blog}) => {
                  {blog.description}
                 </p>
               </div>
-            </a>
+            </Link>
         </div>
     );
 };

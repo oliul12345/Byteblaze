@@ -92,7 +92,7 @@ console.log(theme)
             <input
             onChange={handleTheme}
               type="checkbox"
-              value="synthwave"
+     
               className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2"
             />
             <svg
